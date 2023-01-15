@@ -1,16 +1,38 @@
 {
   "files": {
-    "main.css": "/wedding-card/static/css/main.ababef68.css",
-    "main.js": "/wedding-card/static/js/main.43c4045f.js",
+    "main.css": "/wedding-card/static/css/main.5577aa58.css",
+    "main.js": "/wedding-card/static/js/main.91baf78c.js",
     "static/js/787.1c2f7aed.chunk.js": "/wedding-card/static/js/787.1c2f7aed.chunk.js",
+    "static/media/GowunBatang-Regular.ttf": "/wedding-card/static/media/GowunBatang-Regular.5bb8c474edafaa216ee7.ttf",
+    "static/media/GowunBatang-Bold.ttf": "/wedding-card/static/media/GowunBatang-Bold.b0093aee4b7d96457257.ttf",
+    "static/media/GowunDodum-Regular.ttf": "/wedding-card/static/media/GowunDodum-Regular.39c9a39c246c3c54c53e.ttf",
+    "static/media/NanumMyeongjo-ExtraBold.ttf": "/wedding-card/static/media/NanumMyeongjo-ExtraBold.dd918b8134a050a3c0ec.ttf",
+    "static/media/NanumMyeongjo-Bold.ttf": "/wedding-card/static/media/NanumMyeongjo-Bold.2e38efce0349bc24b049.ttf",
+    "static/media/NanumMyeongjo-Regular.ttf": "/wedding-card/static/media/NanumMyeongjo-Regular.01893c39cd1a403ef0a5.ttf",
     "static/media/R01_0329.JPG": "/wedding-card/static/media/R01_0329.2bda588ff52973fc520d.JPG",
+    "static/media/NotoSerifKR-ExtraLight.otf": "/wedding-card/static/media/NotoSerifKR-ExtraLight.c45bdff2606ebb431233.otf",
+    "static/media/NotoSerifKR-Light.otf": "/wedding-card/static/media/NotoSerifKR-Light.830d41f2ecbaef9534fa.otf",
+    "static/media/NotoSerifKR-Regular.otf": "/wedding-card/static/media/NotoSerifKR-Regular.86f2e22f18e7e63a42d3.otf",
+    "static/media/NotoSerifKR-Medium.otf": "/wedding-card/static/media/NotoSerifKR-Medium.450c33d62ae816d89b03.otf",
+    "static/media/NotoSerifKR-Bold.otf": "/wedding-card/static/media/NotoSerifKR-Bold.07ab327aae2dd1d3cd71.otf",
+    "static/media/NotoSerifKR-Bold.woff": "/wedding-card/static/media/NotoSerifKR-Bold.6b31a933c22ce246fa00.woff",
+    "static/media/NotoSerifKR-Regular.woff": "/wedding-card/static/media/NotoSerifKR-Regular.ec3cf89dafee3bde7bc0.woff",
+    "static/media/NotoSerifKR-Light.woff": "/wedding-card/static/media/NotoSerifKR-Light.4ef49115c71b739f108f.woff",
+    "static/media/profile_yw.jpg": "/wedding-card/static/media/profile_yw.ead74c3b072f639e892a.jpg",
+    "static/media/NotoSerifKR-ExtraLight.woff": "/wedding-card/static/media/NotoSerifKR-ExtraLight.ad57d93e70ad475425fe.woff",
+    "static/media/NotoSerifKR-Bold.woff2": "/wedding-card/static/media/NotoSerifKR-Bold.1b0c80dd031a756af559.woff2",
+    "static/media/NotoSerifKR-Regular.woff2": "/wedding-card/static/media/NotoSerifKR-Regular.d45a3053c9de948f1f03.woff2",
+    "static/media/NotoSerifKR-Light.woff2": "/wedding-card/static/media/NotoSerifKR-Light.33d4cd31053c4fc15061.woff2",
+    "static/media/NotoSerifKR-ExtraLight.woff2": "/wedding-card/static/media/NotoSerifKR-ExtraLight.18996c45709cf2ada03d.woff2",
+    "static/media/profile_sh.jpg": "/wedding-card/static/media/profile_sh.cb87172fb2d4fcc23553.jpg",
+    "static/media/45-degree-fabric-light.png": "/wedding-card/static/media/45-degree-fabric-light.3e9170690495094b2f13.png",
     "index.html": "/wedding-card/index.html",
-    "main.ababef68.css.map": "/wedding-card/static/css/main.ababef68.css.map",
-    "main.43c4045f.js.map": "/wedding-card/static/js/main.43c4045f.js.map",
+    "main.5577aa58.css.map": "/wedding-card/static/css/main.5577aa58.css.map",
+    "main.91baf78c.js.map": "/wedding-card/static/js/main.91baf78c.js.map",
     "787.1c2f7aed.chunk.js.map": "/wedding-card/static/js/787.1c2f7aed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ababef68.css",
-    "static/js/main.43c4045f.js"
+    "static/css/main.5577aa58.css",
+    "static/js/main.91baf78c.js"
   ]
 }
