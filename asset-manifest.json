@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/wedding-card/static/css/main.a5549d37.css",
+    "main.css": "/wedding-card/static/css/main.cc1400a4.css",
     "main.js": "/wedding-card/static/js/main.24b48674.js",
     "static/js/787.1c2f7aed.chunk.js": "/wedding-card/static/js/787.1c2f7aed.chunk.js",
     "static/media/GowunBatang-Regular.ttf": "/wedding-card/static/media/GowunBatang-Regular.5bb8c474edafaa216ee7.ttf",
@@ -27,12 +27,12 @@
     "static/media/profile_sh.jpg": "/wedding-card/static/media/profile_sh.cb87172fb2d4fcc23553.jpg",
     "static/media/45-degree-fabric-light.png": "/wedding-card/static/media/45-degree-fabric-light.3e9170690495094b2f13.png",
     "index.html": "/wedding-card/index.html",
-    "main.a5549d37.css.map": "/wedding-card/static/css/main.a5549d37.css.map",
+    "main.cc1400a4.css.map": "/wedding-card/static/css/main.cc1400a4.css.map",
     "main.24b48674.js.map": "/wedding-card/static/js/main.24b48674.js.map",
     "787.1c2f7aed.chunk.js.map": "/wedding-card/static/js/787.1c2f7aed.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5549d37.css",
+    "static/css/main.cc1400a4.css",
     "static/js/main.24b48674.js"
   ]
 }
