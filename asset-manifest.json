@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.2e32d8e6.css",
-    "main.js": "/wedding-card/static/js/main.88b3b416.js",
+    "main.js": "/wedding-card/static/js/main.c3fe4aeb.js",
     "static/js/787.1c2f7aed.chunk.js": "/wedding-card/static/js/787.1c2f7aed.chunk.js",
     "static/media/GowunBatang-Regular.ttf": "/wedding-card/static/media/GowunBatang-Regular.5bb8c474edafaa216ee7.ttf",
     "static/media/GowunBatang-Bold.ttf": "/wedding-card/static/media/GowunBatang-Bold.b0093aee4b7d96457257.ttf",
@@ -34,11 +34,11 @@
     "static/media/icon_kakaotalk.svg": "/wedding-card/static/media/icon_kakaotalk.f034d0376ebed460d8163d58c4168551.svg",
     "index.html": "/wedding-card/index.html",
     "main.2e32d8e6.css.map": "/wedding-card/static/css/main.2e32d8e6.css.map",
-    "main.88b3b416.js.map": "/wedding-card/static/js/main.88b3b416.js.map",
+    "main.c3fe4aeb.js.map": "/wedding-card/static/js/main.c3fe4aeb.js.map",
     "787.1c2f7aed.chunk.js.map": "/wedding-card/static/js/787.1c2f7aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e32d8e6.css",
-    "static/js/main.88b3b416.js"
+    "static/js/main.c3fe4aeb.js"
   ]
 }
