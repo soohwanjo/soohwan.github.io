@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.2e32d8e6.css",
-    "main.js": "/wedding-card/static/js/main.c0cfb4ae.js",
+    "main.js": "/wedding-card/static/js/main.7830d714.js",
     "static/js/787.1c2f7aed.chunk.js": "/wedding-card/static/js/787.1c2f7aed.chunk.js",
     "static/media/GowunBatang-Regular.ttf": "/wedding-card/static/media/GowunBatang-Regular.5bb8c474edafaa216ee7.ttf",
     "static/media/GowunBatang-Bold.ttf": "/wedding-card/static/media/GowunBatang-Bold.b0093aee4b7d96457257.ttf",
@@ -26,19 +26,19 @@
     "static/media/NotoSerifKR-ExtraLight.woff2": "/wedding-card/static/media/NotoSerifKR-ExtraLight.18996c45709cf2ada03d.woff2",
     "static/media/profile_sh.jpg": "/wedding-card/static/media/profile_sh.cb87172fb2d4fcc23553.jpg",
     "static/media/45-degree-fabric-light.png": "/wedding-card/static/media/45-degree-fabric-light.3e9170690495094b2f13.png",
+    "static/media/icon_marker2.png": "/wedding-card/static/media/icon_marker2.914ce87dda2a7292dd7a.png",
     "static/media/icon_navermap.png": "/wedding-card/static/media/icon_navermap.1c51f19ae57060877d58.png",
-    "static/media/icon_marker.png": "/wedding-card/static/media/icon_marker.76103e97ba54f27ccb4e.png",
     "static/media/icon_tmap.png": "/wedding-card/static/media/icon_tmap.acaa56e5bd50b1a33d30.png",
     "static/media/icon_link.png": "/wedding-card/static/media/icon_link.1b0440572f8735fe4b99.png",
     "static/media/icon_kakaomap.png": "/wedding-card/static/media/icon_kakaomap.e975d95bbc02f7ca0ffa.png",
     "static/media/icon_kakaotalk.svg": "/wedding-card/static/media/icon_kakaotalk.f034d0376ebed460d8163d58c4168551.svg",
     "index.html": "/wedding-card/index.html",
     "main.2e32d8e6.css.map": "/wedding-card/static/css/main.2e32d8e6.css.map",
-    "main.c0cfb4ae.js.map": "/wedding-card/static/js/main.c0cfb4ae.js.map",
+    "main.7830d714.js.map": "/wedding-card/static/js/main.7830d714.js.map",
     "787.1c2f7aed.chunk.js.map": "/wedding-card/static/js/787.1c2f7aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e32d8e6.css",
-    "static/js/main.c0cfb4ae.js"
+    "static/js/main.7830d714.js"
   ]
 }
