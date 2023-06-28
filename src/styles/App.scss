@@ -1,0 +1,32 @@
+span.light {
+    font-weight: 100;
+}
+span.bold {
+    font-weight: 600;
+}
+span.colored {
+    color: #bc927e;
+}
+span.white {
+    color: white;
+}
+span.ul {
+    text-decoration: underline;
+}
+span.right {
+    text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+    .line-narrow {
+        line-height: 90%;
+    }
+}
+
+.arrow-down {
+    transform: rotate(90deg);
+}
+
+.btn span{
+    color: gray;
+}

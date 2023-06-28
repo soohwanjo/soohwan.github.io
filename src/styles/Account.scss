@@ -1,0 +1,20 @@
+.accordion {
+    display: inlnie-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    // width: 100%;
+    
+    .acnt-dtl {
+        .groomLabel {
+            background-color:#e6f3fc;
+        }
+        .brideLabel {
+            background-color:#fff2f6;
+        }
+
+        // @media screen and (max-width: 576px) {
+        //     padding: 3% 0 3% 0;
+        // }
+    }
+}
