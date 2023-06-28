@@ -8,8 +8,7 @@ import Photo from './components/Photo';
 import Location from './components/Location';
 import Account from './components/Account';
 import Visitor from './components/Visitor';
-import FAQ from './components/FAQ';
-import Cookie from './components/Cookie';
+// import Cookie from './components/Cookie';
 import Share from './components/Share';
 import { TextXSmallDodum, bgLight  } from './components/CommonStyle';
 
@@ -24,7 +23,7 @@ import Calendar from 'components/Calendar';
 function App() {
     return (
         <main style={{ height: '100%', backgroundImage: `url(${background})`}}>
-            {/* <Navbar config={configs}/> */}
+            <Navbar config={configs}/>
             <div id="content">
                 <Main config={configs}/>
                 <Invite/>
@@ -40,7 +39,6 @@ function App() {
                     <TextXSmallDodum className="colored centered">&#10047; &#10047; &#10047;</TextXSmallDodum>
                 </div>
                 <Visitor/>
-                {/* <FAQ/> */}
                 {/* <Cookie/> */}
                 <Share config={configs}/>
             </div>
