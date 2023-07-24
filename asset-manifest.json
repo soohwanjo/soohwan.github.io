@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.e3ed5c0a.css",
-    "main.js": "/wedding-card/static/js/main.73790b8b.js",
+    "main.js": "/wedding-card/static/js/main.85d98956.js",
     "static/js/787.1c2f7aed.chunk.js": "/wedding-card/static/js/787.1c2f7aed.chunk.js",
     "static/media/R01_0321__.jpg": "/wedding-card/static/media/R01_0321__.75900199e69fb990f289.jpg",
     "static/media/flower1_1.png": "/wedding-card/static/media/flower1_1.7f1e112583905b4d73fb.png",
@@ -50,14 +50,14 @@
     "static/media/NotoSerifKR-Regular.woff": "/wedding-card/static/media/NotoSerifKR-Regular.ec3cf89dafee3bde7bc0.woff",
     "static/media/NotoSerifKR-Light.woff": "/wedding-card/static/media/NotoSerifKR-Light.4ef49115c71b739f108f.woff",
     "static/media/03_R02_0073_4423_6635.webp": "/wedding-card/static/media/03_R02_0073_4423_6635.fbeb918d066ef38d4ee2.webp",
-    "static/media/profile_yw.jpg": "/wedding-card/static/media/profile_yw.ead74c3b072f639e892a.jpg",
+    "static/media/profile_groom.jpg": "/wedding-card/static/media/profile_groom.ead74c3b072f639e892a.jpg",
     "static/media/NotoSerifKR-ExtraLight.woff": "/wedding-card/static/media/NotoSerifKR-ExtraLight.ad57d93e70ad475425fe.woff",
     "static/media/NotoSerifKR-Bold.woff2": "/wedding-card/static/media/NotoSerifKR-Bold.1b0c80dd031a756af559.woff2",
     "static/media/NotoSerifKR-Regular.woff2": "/wedding-card/static/media/NotoSerifKR-Regular.d45a3053c9de948f1f03.woff2",
     "static/media/NotoSerifKR-Light.woff2": "/wedding-card/static/media/NotoSerifKR-Light.33d4cd31053c4fc15061.woff2",
     "static/media/NotoSerifKR-ExtraLight.woff2": "/wedding-card/static/media/NotoSerifKR-ExtraLight.18996c45709cf2ada03d.woff2",
     "static/media/OoohBaby-Regular.ttf": "/wedding-card/static/media/OoohBaby-Regular.ab6a7915e4c444843761.ttf",
-    "static/media/profile_sh.jpg": "/wedding-card/static/media/profile_sh.cb87172fb2d4fcc23553.jpg",
+    "static/media/profile_bride.jpg": "/wedding-card/static/media/profile_bride.cb87172fb2d4fcc23553.jpg",
     "static/media/45-degree-fabric-light.png": "/wedding-card/static/media/45-degree-fabric-light.3e9170690495094b2f13.png",
     "static/media/icon_marker3.png": "/wedding-card/static/media/icon_marker3.421d84d8a0a79ec8f6eb.png",
     "static/media/icon_marker2.png": "/wedding-card/static/media/icon_marker2.914ce87dda2a7292dd7a.png",
@@ -75,11 +75,11 @@
     "index.html": "/wedding-card/index.html",
     "static/media/check.svg": "/wedding-card/static/media/check.be5e8cd423532ca18c6a.svg",
     "main.e3ed5c0a.css.map": "/wedding-card/static/css/main.e3ed5c0a.css.map",
-    "main.73790b8b.js.map": "/wedding-card/static/js/main.73790b8b.js.map",
+    "main.85d98956.js.map": "/wedding-card/static/js/main.85d98956.js.map",
     "787.1c2f7aed.chunk.js.map": "/wedding-card/static/js/787.1c2f7aed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3ed5c0a.css",
-    "static/js/main.73790b8b.js"
+    "static/js/main.85d98956.js"
   ]
 }
