@@ -16,7 +16,7 @@ import { configs } from './configs';
 import background from './assets/images/45-degree-fabric-light.png'
 import './styles/App.scss';
 import { alignPropType } from 'react-bootstrap/esm/types';
-import Calendar from 'components/Calendar';
+// import Calendar from 'components/Calendar';
 // import background from './assets/images/binding-light.png'
 // import './App.css';
 
@@ -33,7 +33,7 @@ function App() {
                 </div>
                 <Location loc={configs.weddingLocation}/>
                 {/* <Calendar/> */}
-                <Photo config={configs}/>
+                <Photo/>
                 <Account config={configs}/>
                 <div style={{ textAlign: 'center', paddingTop: '3%', background: `${bgLight}` }}>
                     <TextXSmallDodum className="colored centered">&#10047; &#10047; &#10047;</TextXSmallDodum>

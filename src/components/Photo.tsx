@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Title from './Title';
 import styled from 'styled-components';
 import { Section, bgLight, TextMediumDodum } from './CommonStyle';
-import { ConfigsType, mobileWidth } from '../configs';
+import { mobileWidth } from '../configs';
 import useWindowSize from '../utils/useWindowSize'
 import iconArrow from '../assets/images/icon_down_arrow.png';
 
@@ -12,10 +12,6 @@ import Lightbox from "yet-another-react-lightbox";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import "yet-another-react-lightbox/styles.css";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
-
-type ConfigProps = {
-    config: ConfigsType;
-};
 
 const DivMore = styled.div`
     margin-top: 20px;
@@ -46,7 +42,7 @@ const DivMore = styled.div`
     }    
 `;
 
-const Photo = ({ config }: ConfigProps) => {
+const Photo = () => {
     const size = useWindowSize();
 
     const [index, setIndex] = useState(-1);
@@ -55,6 +51,7 @@ const Photo = ({ config }: ConfigProps) => {
 
     const targetRowHeight: number = (size.width < mobileWidth? size.width*0.8/3: size.width*0.8/5);
     const spacing: number = (size.width < mobileWidth? 5: 10);
+    const initCount: number = (size.width < mobileWidth? 12: 15);
 
     const onClickShow = () => setIsShow(!isShow);
     const onHover = () => {
@@ -64,32 +61,30 @@ const Photo = ({ config }: ConfigProps) => {
     return (
         <Section id="photo" >
             <Title main="사 진 첩" sub="G A L L E R Y" />
-            <PhotoAlbum
-                layout="rows"
-                spacing={spacing}
-                photos={photos.slice(0,15)}
-                targetRowHeight={targetRowHeight}
-                columns={(containerWidth) => {
-                    if (containerWidth < mobileWidth) return 3;
-                    return 4;
-                }}
-                onClick={({ index }) => setIndex(index)}
-            />
-            <div style={{marginTop: spacing}}>
-                {!isShow
-                  ? <DivMore onClick={onClickShow} onMouseOver={onHover}>
-                        <TextMediumDodum>사진 더보기</TextMediumDodum><br/>
-                        <img src={iconArrow} alt="down-arrow" />
-                    </DivMore>
-                  : <PhotoAlbum
+            {!isShow
+                ? <>
+                    <PhotoAlbum
                         layout="rows"
                         spacing={spacing}
-                        photos={photos.slice(15, photos.length)}
+                        photos={photos.slice(0,initCount)}
                         targetRowHeight={targetRowHeight}
                         onClick={({ index }) => setIndex(index)}
                     />
-                }
-            </div>
+                    <div style={{marginTop: spacing}}>
+                        <DivMore onClick={onClickShow} onMouseOver={onHover}>
+                            <TextMediumDodum>사진 더보기</TextMediumDodum><br/>
+                            <img src={iconArrow} alt="down-arrow" />
+                        </DivMore>
+                    </div>
+                </>                    
+                : <PhotoAlbum
+                    layout="rows"
+                    spacing={spacing}
+                    photos={photos}
+                    targetRowHeight={targetRowHeight}
+                    onClick={({ index }) => setIndex(index)}
+                />
+            }
             <Lightbox
                 index={index}
                 slides={photos}

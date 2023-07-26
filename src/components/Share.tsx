@@ -48,7 +48,7 @@ const Img = styled.img`
 
 
 const Share = ({ config }: ConfigProps) => {
-    const titleKakao = `${config.groom.name}♥︎${config.bride.name}의 결혼식에 초대합니다`;
+    const titleKakao = `${config.groom.name.me}♥︎${config.bride.name.me}의 결혼식에 초대합니다`;
 
     useEffect(() => {
         if ((window as any).Kakao) {

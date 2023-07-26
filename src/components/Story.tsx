@@ -89,7 +89,7 @@ const Story = ({ config }: ConfigProps) => {
             {size.width < mobileWidth? <br/>:null}
             <Div>
                 <TextMediumDodum id="story-letter">
-                    KAIST 동아리에서의 만남으로 시작해<br/>
+                    학부 동아리에서의 만남으로 시작해<br/>
                     대전, 서울, 덴마크, 미국을 오가며 장거리 연애를 헤쳐나간 우리.<br/>
                     많은 분들이 언제 가는지 물어보셨죠? 저희 드디어 결혼합니다!<br/>
                 </TextMediumDodum>
