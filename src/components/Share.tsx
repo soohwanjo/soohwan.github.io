@@ -63,7 +63,7 @@ const Share = ({ config }: ConfigProps) => {
                 content: {
                     title: titleKakao,
                     description: "아래의 '청첩장 열기' 버튼을 눌러 읽어주세요🤵👰",
-                    imageUrl: '../assets/images/icon_marker.png',
+                    imageUrl: `${process.env.REACT_APP_GIT_URL}/src/assets/images/main_thumb.jpg?raw=true`,
                     link: {
                         mobileWebUrl: process.env.REACT_APP_ROUTE_URL, 
                         webUrl: process.env.REACT_APP_ROUTE_URL
@@ -109,7 +109,7 @@ const Share = ({ config }: ConfigProps) => {
                 <Img src={iconKakao} alt="카카오톡"/><TextSmallDodum>카카오톡 공유하기</TextSmallDodum>
             </Item>
             <Item>
-                <CopyToClipboard text="https://soohwanjo.github.io/wedding-card" onCopy={(text: String) => alert("링크가 복사되었습니다.")}>
+                <CopyToClipboard text={`${process.env.REACT_APP_ROUTE_URL}`} onCopy={(text: String) => alert("링크가 복사되었습니다.")}>
                     <span><Img src={iconLink} alt="링크복사"/><TextSmallDodum>링크 주소 복사하기</TextSmallDodum></span>
                 </CopyToClipboard>
             </Item>
