@@ -39,7 +39,7 @@ const HeaderLayout = styled.div`
         line-height: 150%;
     }
 `;
-const TextHeader = styled.article`
+const TextHeader = styled.span`
     font-family: OoohBaby;
     font-size: 7.5vmin;
     font-weight: 400;
@@ -47,9 +47,17 @@ const TextHeader = styled.article`
         font-size: 4.5vmin;
     }
 `;  
+const TextHeader2 = styled.span`
+    font-family: OoohBaby;
+    font-size: 5.5vmin;
+    font-weight: 400;
+    @media screen and (max-width: ${mobileWidth}px) {
+        font-size: 3vmin;
+    }
+`;  
 const TextSubHeader = styled.article`
     font-family: GowunDodum;
-    font-size: 2.5vmin;
+    font-size: 3vmin;
     font-weight: 100;
     padding-top: 10px;
     @media screen and (max-width: ${mobileWidth}px) {
@@ -73,7 +81,7 @@ const Main = ({ config }: ConfigProps) => {
     return (
         <Section id="main">
             <HeaderLayout>
-                <TextHeader>Youngwoon & Soohwan</TextHeader>
+                <TextHeader>Youngwoon <TextHeader2>&</TextHeader2> Soohwan</TextHeader>
                 <TextSubHeader>2024.03.24</TextSubHeader>
                 {/* <TextHeader>{config.groom.name.me} &hearts; {config.bride.name.me}</TextHeader> */}
                 {/* <TextSubHeader>저희 드디어 결혼합니다!</TextSubHeader> */}

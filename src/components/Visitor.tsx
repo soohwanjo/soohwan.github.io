@@ -2,7 +2,6 @@ import React from 'react';
 import Title from './Title';
 import styled from 'styled-components';
 import Giscus from '@giscus/react';
-import { DiscussionEmbed } from 'disqus-react';
 
 import { Section, bgLight, TextXSmallDodum } from './CommonStyle';
 import { mobileWidth } from '../configs';
@@ -18,16 +17,19 @@ const Visitor = () => {
         <Section id="visitor" style={{ background: `${bgLight}`, paddingBottom: '5%' }} >
             <Title main="방 명 록" sub="G U E S T B O O K" />
             <Div>
-                <DiscussionEmbed
-                    shortname='wedding-card'
-                    config={
-                        {
-                            url: 'https://soohwanjo.github.io/wedding-card/',
-                            identifier: 'soohwanjo',
-                            title: 'visitor',
-                            language: 'ko'
-                        }
-                    }
+                <Giscus
+                    repo="soohwanjo/wedding-card"
+                    repoId="R_kgDOIu_w-A"
+                    category="General"
+                    categoryId="DIC_kwDOIu_w-M4CXcRW"
+                    mapping="pathname"
+                    reactionsEnabled="1"
+                    emitMetadata="0"
+                    inputPosition="bottom"
+                    theme="light"
+                    lang="ko"
+                    term="축하 메시지를 남겨주세요!"
+                    loading="lazy"
                 />
             </Div>
         </Section>
