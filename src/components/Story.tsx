@@ -133,7 +133,7 @@ const Story = ({ config }: ConfigProps) => {
                     <Col xs="6" sm="8"><TextSmallDodum>뉴질랜드 여행, 함께한 12주년</TextSmallDodum></Col>
                 </Row>
                 <Row className="mb-1">
-                    <Col xs="3" sm="2"><TextSmallDodum>2024.01.</TextSmallDodum></Col>
+                    <Col xs="3" sm="2"><TextSmallDodum>2024.02.</TextSmallDodum></Col>
                     <Col xs="7" sm="8"><TextSmallDodum>영운 귀국, 장거리 THE END!</TextSmallDodum></Col>
                 </Row>
                 <Row className="mb-1">
