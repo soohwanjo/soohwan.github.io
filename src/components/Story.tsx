@@ -89,7 +89,7 @@ const Story = ({ config }: ConfigProps) => {
             {size.width < mobileWidth? <br/>:null}
             <Div>
                 <TextMediumDodum id="story-letter">
-                    학부 동아리에서의 만남으로 시작해<br/>
+                    대학교 동아리에서의 만남으로 시작해<br/>
                     대전, 서울, 덴마크, 미국을 오가며 장거리 연애를 헤쳐나간 우리.<br/>
                     많은 분들이 언제 가는지 물어보셨죠? 저희 드디어 결혼합니다!<br/>
                 </TextMediumDodum>
@@ -99,7 +99,7 @@ const Story = ({ config }: ConfigProps) => {
             <Container className="line-narrow" id="history">
                 <Row className="mb-1">
                     <Col xs="3" sm="2"><TextSmallDodum>2010.02.</TextSmallDodum></Col>
-                    <Col xs="7" sm="8"><TextSmallDodum>동아리 소리모음에서 첫 만남</TextSmallDodum></Col>
+                    <Col xs="7" sm="8"><TextSmallDodum>대학교 동아리 소리모음에서 첫 만남</TextSmallDodum></Col>
                 </Row>
                 <Row className="mb-1">
                     <Col xs="3" sm="2"><TextSmallDodum>2010.12.23</TextSmallDodum></Col>
@@ -129,7 +129,7 @@ const Story = ({ config }: ConfigProps) => {
                     <Col xs="7" sm="8"><TextSmallDodum>10주년, 캠퍼스에서 프로포즈</TextSmallDodum></Col>
                 </Row>
                 <Row className="mb-1">
-                    <Col xs="3" sm="2"><TextSmallDodum>2022.12.</TextSmallDodum></Col>
+                    <Col xs="3" sm="2"><TextSmallDodum>2022.12.23</TextSmallDodum></Col>
                     <Col xs="6" sm="8"><TextSmallDodum>뉴질랜드 여행, 함께한 12주년</TextSmallDodum></Col>
                 </Row>
                 <Row className="mb-1">

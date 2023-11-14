@@ -100,7 +100,7 @@ const Location = ({loc}: LocProps) => {
     const size = useWindowSize();
     const markerSize = (size.width < mobileWidth? 30:45);
     const tmapUrl = (size.width < mobileWidth? "tmap://search?name=더컨벤션반포점":"https://surl.tmobiapi.com/2e3ba2b6");
-    const height = (size.width < mobileWidth? size.width/1.618: "100%");
+    const height = (size.width < mobileWidth? size.width/1.618: "95%");
 
     // useEffect(() => {
     //     const naver = (window as any).naver;
@@ -184,22 +184,30 @@ const Location = ({loc}: LocProps) => {
                     <TextSmallDodum>({loc.address})<br/></TextSmallDodum>
                     <br/>
 
-                    <Img src={iconSubway} alt="subway" />
+                    {/* <Img src={iconSubway} alt="subway" /> */}
                     <TextSmallDodum className="colored blod">지하철<br/></TextSmallDodum>
-                    <TextSmallDodum>9호선 신반포역 4번 출구 (도보 10분, 셔틀 버스 Y분 간격 운행)<br/></TextSmallDodum>
+                    <TextSmallDodum>9호선 신반포역 4번 출구 (반포종합운동장 방향 도보 7분, 셔틀 버스 수시 운행)<br/></TextSmallDodum>
                     <br/>
 
-                    <Img src={iconBus} alt="bus" />
+                    {/* <Img src={iconBus} alt="bus" /> */}
                     <TextSmallDodum className="colored blod">버스<br/></TextSmallDodum>
-                    <TextSmallDodum>반포종합운동장 정류장 하차 (142, 서초10, 서초14, 서초21)<br/></TextSmallDodum>
+                    <TextSmallDodum>반포종합운동장 정류장 하차 (마을 : 서초10, 서초14, 서초21 / 간선 : 142)<br/></TextSmallDodum>
                     <br/>
 
-                    <Img src={iconCar} alt="car" />
+                    <TextSmallDodum className="colored blod">기차<br/></TextSmallDodum>
+                    <TextSmallDodum>수서역 : 3호선 고속터미널역 &#8594; 9호선 환승 / 분당선 강남구청역 &#8594; 9호선 환승<br/></TextSmallDodum>
+                    <TextSmallDodum>서울역 : 1호선 노량진역 &#8594; 9호선 환승<br/></TextSmallDodum>
+                    <br/>
+
+                    {/* <Img src={iconCar} alt="car" />  */}
                     <TextSmallDodum className="colored blod">자가용<br/></TextSmallDodum>
-                    <TextSmallDodum>~~~에서 ~~~방향 약 Xm에 위치<br/></TextSmallDodum>
-                    <TextSmallDodum>건물 내 주차장 <span className="ul">N시간</span> 무료 주차<br/></TextSmallDodum>
-                    <TextSmallDodum>건물 내 만차 시 외부 주차장 이용 안내<br/></TextSmallDodum>
-                    <TextSmallDodum>&emsp;- 반포2동 공영 주차장 (도보 10분 거리, 셔틀버스 운행)<br/></TextSmallDodum>
+                    <TextSmallDodum>내비게이션 주소 검색 : 서초구 사평대로 108 (반포동 107-3)<br/></TextSmallDodum>
+                    <br/>
+
+                    <TextSmallDodum className="colored blod">주차 안내<br/></TextSmallDodum>
+                    <TextSmallDodum>건물 내 만차 시 외부 주차장 안내 (<span className="ul">2시간</span> 무료 주차)<br/></TextSmallDodum>
+                    <TextSmallDodum>&emsp;- 주차 공간이 협소하오니 되도록 대중교통을 이용해주시기 바랍니다.<br/></TextSmallDodum>
+                    <TextSmallDodum>&emsp;- 반포2동 공영 주차장 : 서초구 신반포로15길 6<br/></TextSmallDodum>
                     <br/>
                 </Content>
                 <Map>
