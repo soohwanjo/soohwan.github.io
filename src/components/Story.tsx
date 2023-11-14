@@ -129,8 +129,8 @@ const Story = ({ config }: ConfigProps) => {
                     <Col xs="7" sm="8"><TextSmallDodum>10주년, 캠퍼스에서 프로포즈</TextSmallDodum></Col>
                 </Row>
                 <Row className="mb-1">
-                    <Col xs="3" sm="2"><TextSmallDodum>2022.12.23</TextSmallDodum></Col>
-                    <Col xs="6" sm="8"><TextSmallDodum>뉴질랜드 여행, 함께한 12주년</TextSmallDodum></Col>
+                    <Col xs="3" sm="2"><TextSmallDodum>2022.12.</TextSmallDodum></Col>
+                    <Col xs="6" sm="8"><TextSmallDodum>12주년, 뉴질랜드 여행</TextSmallDodum></Col>
                 </Row>
                 <Row className="mb-1">
                     <Col xs="3" sm="2"><TextSmallDodum>2024.02.</TextSmallDodum></Col>
