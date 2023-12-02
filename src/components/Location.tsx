@@ -191,12 +191,16 @@ const Location = ({loc}: LocProps) => {
 
                     {/* <Img src={iconBus} alt="bus" /> */}
                     <TextSmallDodum className="colored blod">버스<br/></TextSmallDodum>
-                    <TextSmallDodum>반포종합운동장 정류장 하차 (마을 : 서초10, 서초14, 서초21 / 간선 : 142)<br/></TextSmallDodum>
+                    <TextSmallDodum>마을 서초10, 서초14, 서초21, 간선 142 (반포종합운동장 하차)<br/></TextSmallDodum>
+                    <TextSmallDodum>마을 서초13 (서래마을 입구 하차)<br/></TextSmallDodum>
                     <br/>
 
                     <TextSmallDodum className="colored blod">기차<br/></TextSmallDodum>
-                    <TextSmallDodum>수서역 : 3호선 고속터미널역 &#8594; 9호선 환승 / 분당선 강남구청역 &#8594; 9호선 환승<br/></TextSmallDodum>
-                    <TextSmallDodum>서울역 : 1호선 노량진역 &#8594; 9호선 환승<br/></TextSmallDodum>
+                    <TextSmallDodum>수서역 분당선 &#8594; 강남구청역 9호선 환승, 신반포역 하차<br/></TextSmallDodum>
+                    <TextSmallDodum>수서역 3호선 &#8594; 고속터미널역 9호선 환승, 신반포역 하차<br/></TextSmallDodum>
+                    <TextSmallDodum>서울역 1호선 &#8594; 노량진역 9호선 환승, 신반포역 하차<br/></TextSmallDodum>
+                    {/* <TextSmallDodum>수서역 : 3호선 고속터미널역 &#8594; 9호선 환승 / 분당선 강남구청역 &#8594; 9호선 환승<br/></TextSmallDodum>
+                    <TextSmallDodum>서울역 : 1호선 노량진역 &#8594; 9호선 환승<br/></TextSmallDodum> */}
                     <br/>
 
                     {/* <Img src={iconCar} alt="car" />  */}
