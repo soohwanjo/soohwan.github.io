@@ -196,7 +196,7 @@ const Location = ({loc}: LocProps) => {
                     <br/>
 
                     <TextSmallDodum className="colored blod">기차<br/></TextSmallDodum>
-                    <TextSmallDodum>수서역 분당선 &#8594; 강남구청역 9호선 환승, 신반포역 하차<br/></TextSmallDodum>
+                    <TextSmallDodum>수서역 분당선 &#8594; 선정릉역 9호선 환승, 신반포역 하차<br/></TextSmallDodum>
                     <TextSmallDodum>수서역 3호선 &#8594; 고속터미널역 9호선 환승, 신반포역 하차<br/></TextSmallDodum>
                     <TextSmallDodum>서울역 1호선 &#8594; 노량진역 9호선 환승, 신반포역 하차<br/></TextSmallDodum>
                     {/* <TextSmallDodum>수서역 : 3호선 고속터미널역 &#8594; 9호선 환승 / 분당선 강남구청역 &#8594; 9호선 환승<br/></TextSmallDodum>
